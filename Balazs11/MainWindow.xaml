@@ -1,0 +1,20 @@
+﻿<Window x:Class="Balazs11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Balazs11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid Name="grid">
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="Menu">
+                <MenuItem Name="newGameMenu" Header="NewGame"/>
+                <MenuItem Name="exitMenu" Header="Exit"/>
+            </MenuItem>
+        </Menu>
+        <Ellipse Name="ellipseBall" HorizontalAlignment="Left" Height="40" Margin="270,140,0,0" Fill="Blue" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Rectangle Name="rectanglePad" HorizontalAlignment="Left" Height="10" Margin="235,350,0,0" Fill="Black" Stroke="Black" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
